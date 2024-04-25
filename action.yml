@@ -33,4 +33,6 @@ runs:
   using: 'node20'
   main: 'dist/setup/index.js'
   post: 'dist/cache-save/index.js'
-  post-if: success()
+  post-if: success()              - isim: Kurulum . NET Çekirdek SDK
+              kullanır: actions/setup-dotnet@v4.0.0
+            
